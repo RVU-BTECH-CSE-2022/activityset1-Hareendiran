@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main(void)
 {
   float length,breadth,area;
   printf("enter length and breadth values\n");
