@@ -27,7 +27,7 @@ int find_largest(int a, int b, int c)
 }
 
 int output(int a, int b, int c, int d)
-{
+{  
   printf("largest of %d and %d and %d is %d",a,b,c,d);
 }
 
