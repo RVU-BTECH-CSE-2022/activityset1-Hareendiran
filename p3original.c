@@ -17,13 +17,13 @@ int find_largest(int a, int b, int c)
     else
       d = c;
   }
-  { 
+   
     else if (b > c)
       d = b;
     else
       d = c;
   return d;
-  }
+  
 }
 
 int output(int a, int b, int c, int d)
