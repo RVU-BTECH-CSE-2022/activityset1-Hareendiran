@@ -1,13 +1,19 @@
 #include <stdio.h>
+float find_area(float base, float altitude)
+{
+  return (base*altitude/2);
+}
+
 int input()
 {
-  int base;
+  float base,altitude,area;
   printf("enter base value");
   scanf("%d",&base);
-  return base;
 
-  int altitude;
   printf("enter altitude value");
   scanf("%d",&altitude);
-  return altitude;
+
+  area=find_area(base,altitude);
+  printf("area is %f\n",area);
+  return 0;
 }
